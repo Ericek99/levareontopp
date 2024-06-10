@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(https://img4.goodfon.com/wallpaper/nbig/b/dd/velosipedist-sportsmen-gory-priroda-doroga-road-bike.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.navbar .left {
+    display: flex;
+}
+
+.navbar .nav-button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.content h1 {
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content img {
+    display: block;
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #229022;
+}
